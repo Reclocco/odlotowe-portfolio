@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<header>
+		<h2>Student nr. 250096</h2>
+		<div class="top">
+			<a href="#" class="menu_icon"><i class="material-icons">dehaze</i></a>
+		</div>
+		
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</header>
+
+	<nav class="menu">
+		<a href="myWWW.html" 	class="item_menu">Strona główna</a>
+		<a href="myINFO.html" 	class="item_menu">O mnie</a>
+		<a href="myPROJ.html" 	class="item_menu">Projekty</a>
+		<a href="myINTER.html" 	class="item_menu">Zainteresowania</a>
+		<a href="mySOCIAL.html" class="item_menu">Social media</a>
+	</nav>
+
+	<main>
+		O PROJEKTACH CONTENT.
+	</main>
+	
+	<footer>
+		Michał Reclik
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+
+<script>
+$(document).ready(function() {
+	$("body").on('click', '.top', function() {
+	$("nav.menu").toggleClass("menu_show");
+	});
+});
+</script>
+
+</html>

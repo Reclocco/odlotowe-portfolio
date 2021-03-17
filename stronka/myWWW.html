@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("body").on('click', '.top', function() {
+				$("nav.menu").toggleClass("menu_show");
+			});
+		});
+	</script>
+
+</head>
+<body>
+	<header>
+		<h2>Student nr. 250096</h2>
+		<div class="top">
+			<a href="#" class="menu_icon"><i class="material-icons">dehaze</i></a>
+		</div>
+		
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</header>
+
+	<nav class="menu">
+		<a href="myWWW.html" 	class="item_menu">Strona główna</a>
+		<a href="myINFO.html" 	class="item_menu">O mnie</a>
+		<a href="myPROJ.html" 	class="item_menu">Projekty</a>
+		<a href="myINTER.html" 	class="item_menu">Zainteresowania</a>
+		<a href="mySOCIAL.html" class="item_menu">Social media</a>
+	</nav>
+
+	<main>
+		<div class="grid-container">
+		  <div class="myHeader"><h1>Witaj świecie, jestem Michał</h1></div>
+
+		  <div class="myText"><p>Jestem studentem 3 roku Politechniki Wrocławskiej na kierunku Informatyka Algorytmiczna</p></div>
+
+		  <div class="myPhoto">
+		  	<img class="mugshot" src="patol.png" alt="Więzień numer 250096">
+		  </div>
+		  <div class="photoText">
+		  	<p>To moje zdjęcie na Jsosie :(</p>
+		  </div>
+		</div>
+	</main>
+
+	<footer>
+		Michał Reclik
+	</footer>
+</body>
+
+</html>
